@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOCENT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="header__left-inner">
+            <div class="header__logo-wrapper">
+              <div class="header__logo">DOCENT</div>
+            </div><a class="header__author-mail" href="#">hmkang@smilegate.com</a>
+          </div>
+          <div class="header__right-inner">
+            <ul class="header__social">
+              <li class="header__social-item"><a class="header__social-link" href="#"></a>　</li>
+              <li class="header__social-item"><a class="header__social-link" href="#">Smilegate</a></li>
+            </ul>
+            <div class="header__burger"><span></span></div>
+            <div class="header__menu">
+              <div class="header__menu-exit"></div>
+              <ul class="header__menu-social">
+                <li class="header__social-item"><a class="header__social-link" href="#">　</a></li>
+                <li class="header__social-item"><a class="header__social-link" href="#">Smilegate</a></li>
+              </ul>
+              <div class="header__menu-content">
+                <ul class="header__menu-list" id="myMenu"> 
+                  <li class="header__menu-item" data-menuanchor="home"><a class="header__menu-link" href="#home">Home</a></li>
+                  <li class="header__menu-item" data-menuanchor="cases"><a class="header__menu-link" href="#cases">Spaces</a></li>
+                  <li class="header__menu-item" data-menuanchor="about"><a class="header__menu-link" href="#about">About</a></li>
+                  <li class="header__menu-item" data-menuanchor="contacts"><a class="header__menu-link" href="#contacts">Contacts </a></li>
+                </ul>
+                <ul class="header__menu-contacts">
+                  <li class="header__menu-contact"><a class="header__social-link">Special Thanks to</a></li>
+                  <li class="header__menu-contact"><a class="header__social-link">Hosik Ham as CCL 2nd member</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="wrapper" id="preloader">
+        <div class="main-circle">
+          <div class="green-circle">
+            <div class="brown-circle"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation line-->
+      <div class="nav-widget">
+        <div class="nav-widget__wrapper">
+          <div class="nav-widget__line">
+            <div class="nav-widget__name-page js-page-label">about Lobby</div>
+            <div class="nav-widget__line-transparent"></div>
+            <div class="nav-widget__line nav-widget__line-white">
+              <div class="nav-widget__line-gold gold-line-js"></div>
+            </div>
+            <div class="nav-widget__name-number js-page-number">1/3</div>
+          </div>
+        </div>
+      </div>
+      <div id="pagepiling">
+        <!-- Main section-->
+        <div class="section section-home pp-scrollable">
+          <canvas class="noise"></canvas>
+          <div class="section-main home js-section" id="home">
+            <div class="container-main home__container">
+              <div class="home__row">
+                <div class="home__text">
+                  <div class="home__title">Welcome to Smilegate Lobby </div>
+                  <div class="home__desc">This is the way we are thinking</div>
+                </div>
+                <!-- Portfolio page link--><a class="home__link" href="cafe-page.html"><img class="home__link-img" src="img/home/link-y.svg" alt="img"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cases section-->
+        <div class="section section-cases pp-scrollable">
+          <canvas class="noise"></canvas>
+          <div class="section-main cases js-section" id="cases">
+            <div class="cases__play-animation-right"></div>
+            <div class="cases__play-animation-left"></div>
+            <div class="cases__container">
+              <div class="cases__row-wrapper">
+                <div class="cases__row js-cases-row">
+                  <!-- Case card--><a class="cases__card js-cases-card" href="cafe-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">01</div>
+                      <div class="cases__card-name">#CAFE</div>
+                    </div><img class="cases__card-img" src="img/cases/img1.jpg" alt="img"></a>
+                  <!-- Case card--><a class="cases__card js-cases-card" href="greenhouse-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">02</div>
+                      <div class="cases__card-name">온실</div>
+                    </div><img class="cases__card-img" src="img/cases/img2.jpg" alt="img"></a>
+                  <!-- Case card--><a class="cases__card js-cases-card" href="orangeroom-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">03</div>
+                      <div class="cases__card-name">Orange Room</div>
+                    </div><img class="cases__card-img" src="img/cases/img3.jpg" alt="img"></a>
+                  <!-- Case card--><a class="cases__card js-cases-card" href="eastlobby-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">04</div>
+                      <div class="cases__card-name">East Lobby</div>
+                    </div><img class="cases__card-img" src="img/cases/img4.jpg" alt="img"></a>
+                  <!-- Case card--><a class="cases__card js-cases-card" href="tf-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">05</div>
+                      <div class="cases__card-name">TF 0.5</div>
+                    </div><img class="cases__card-img" src="img/cases/img5.jpg" alt="img"></a>
+                  <!-- Case card--><a class="cases__card js-cases-card" href="garden-page.html">
+                    <div class="cases__text">
+                      <div class="cases__card-number">06</div>
+                      <div class="cases__card-name">Garden</div>
+                    </div><img class="cases__card-img" src="img/cases/img6.jpg" alt="img"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About section-->
+        <div class="section section-about pp-scrollable"> 
+          <canvas class="noise"></canvas>
+          <div class="section-main about js-section" id="about">
+            <div class="container-main about__container">
+              <div class="about__column">
+                <div class="about__text">
+                  <div class="about__text-title">[나의 로비, 모두의 로비] </div>
+                  <div class="about__text-desc">Smilegate Lobby Renewal Mini Documentary</div>
+                </div>
+                <div class="about__img-wrapper"> 
+                  <!-- Open popup button with video--><a class="about__video popupbox-video fancybox iframe" href="img/video_lobby.mp4" target="_blank" rel="group"><img class="about__img-play" src="img/about/play.svg" alt="img"></a><img class="about__img" src="img/about/img_video.jpg" alt="img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </main>
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

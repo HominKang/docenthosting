@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOCENT_East Lobby</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main2.css" rel="stylesheet">
+	
+  </head>
+  <body>
+    <header class="header header-js">
+      <div class="header__wrapper header-wrapper-js">
+        <div class="header__left-inner">
+          <div class="header__logo-wrapper">
+            <div class="header__logo"><a href="index.html">DOCENT</a></div>
+          </div>
+        </div>
+        <div class="header__right-inner">
+            <ul class="header__social">
+              <li class="header__social-item"><a class="header__social-link" href="#"></a>　</li>
+              <li class="header__social-item"><a class="header__social-link" href="#">Smilegate</a></li>
+            </ul>
+            <div class="header__burger"><span></span></div>
+            <div class="header__menu">
+              <div class="header__menu-exit"></div>
+              <ul class="header__menu-social">
+                <li class="header__social-item"><a class="header__social-link" href="#">　</a></li>
+                <li class="header__social-item"><a class="header__social-link" href="#">Smilegate</a></li>
+              </ul>
+              <div class="header__menu-content">
+                <ul class="header__menu-list" id="myMenu"> 
+                  <li class="header__menu-item" data-menuanchor="home"><a class="header__menu-link" href="#home">Home</a></li>
+                  <li class="header__menu-item" data-menuanchor="cases"><a class="header__menu-link" href="#cases">Spaces</a></li>
+                  <li class="header__menu-item" data-menuanchor="about"><a class="header__menu-link" href="#about">About</a></li>
+                  <li class="header__menu-item" data-menuanchor="contacts"><a class="header__menu-link" href="#contacts">Contacts </a></li>
+                </ul>
+                <ul class="header__menu-contacts">
+                  <li class="header__menu-contact"><a class="header__social-link" href="#">+ 34 2454 3459 21</a></li>
+                  <li class="header__menu-contact"><a class="header__social-link" href="#">hmkang@smilegate.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper" id="preloader">
+        <div class="main-circle">
+          <div class="green-circle">
+            <div class="brown-circle"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Main image of the case page-->
+      <div class="case-bg">
+        <div class="img" style="padding-top:0; padding-bottom:34px" > <img class="img-img" src="img/eastlobby/cafe-main-img.jpg" alt="">
+        </div>
+        <div class="info">  
+          <div class="container-fluid">
+            <div class="info-inner">
+              <h1 class="info__title">동쪽 로비</h1>
+              <div class="line info__line"></div>
+              <div class="info__wrap" style="margin-top:30px;"> 
+                <div class="info__wrapper-list">
+                  <ul class="info__list"> 
+                    <li class="info__list-item"> <span class="info__list-subtext">Date</span>
+                      <p class="info__list-text">16 February 2021</p>
+                    </li>
+                    <li class="info__list-item"> <span class="info__list-subtext">Services</span>
+                      <p class="info__list-text">Graphic Design, Branding </p>
+                    </li>
+                    <li class="info__list-item"> <span class="info__list-subtext">Client</span>
+                      <p class="info__list-text">Innovation X</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="info__wrapper"> 
+                  <p class="info__text">자유로운 만남과 휴식이 어우러진 스마일게이트 구성원만을 위한 카페공간. 특별한 원두가 그라인딩되는 향긋한 커피내음과 환경을 생각하는 수돗가에서는 텀블러 씻는 소리가 사방을 가득 채우는 공간 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero"> 
+          <div class="container-fluid"> 
+            <div class="hero__img-wrap"><img class="hero__img-img hero__img-img--mr-46 hero__img-img--fb-72" src="img/eastlobby/main-img-1.jpg" alt=""><img class="hero__img-img hero__img-img--mt-30 hero__img-img--w-57" src="img/eastlobby/main-img-2.jpg" alt=""></div>
+            
+            <div class="hero__img-wrap"><iframe width="100%" src="https://www.youtube.com/embed/T17-T9CESSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			<div class="hero__img-wrap"><img class="hero__img-img" src="img/eastlobby/main-img-3.jpg" alt=""></div>
+          </div>
+        </div>
+		
+        <div class="next">
+          <div class="container-fluid">
+            <div class="next__inner">
+              <h5 class="next__title">The next Space</h5>
+              <div class="next__link"><img class="next__link-img" src="img/eastlobby/next-img.jpg" alt="">
+                <div class="next__link-wrap"> 
+                  <h2 class="next__link-name">TF0.5</h2><a class="next__link-button" href="tf-page.html"><img class="next__link-btn" src="img/case/button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
